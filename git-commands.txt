@@ -17,3 +17,14 @@ log --oneline = daha önceki commitleri tek satırda görüntüler
 reset --soft = --soft flagi ile dosyaları en son commit yapılmadan önceki haline geri döndürebiliriz
 reset --hard = --hard flagi ile dosyaları daha önceki istediğiniz bir commit versiyonuna döndürür. 
 Belirtilen commit sonrasındaki Bütün değişiklikleri siler
+
+# Github ile oluşuturduğumuz remote repository'e local commitlermizi yollama komutları
+
+git config --global -l = global git ayarlarımızı görebiliriz
+git config --global user.name "Kullanıcı adınız" = global git ayarlarında kullanıcı adınızı ayarlayabilirsiniz
+git config --global user.email "Email adresiniz" = global git ayarlarında email adresinizi değiştirebilirsiniz
+
+git remote add origin "GİTHUB REPOSİTORY URLiniz" = 'origin' adında yeni bir remote repository ekliyorsunuz
+git remote -v = remote repository url'lerinizi görebilirsiniz
+
+git push -u origin master = origin reposuna master branchini yollayabiliyorsunuz
