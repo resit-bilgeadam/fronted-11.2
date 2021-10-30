@@ -28,3 +28,4 @@ git remote add origin "GİTHUB REPOSİTORY URLiniz" = 'origin' adında yeni bir 
 git remote -v = remote repository url'lerinizi görebilirsiniz
 
 git push -u origin master = origin reposuna master branchini yollayabiliyorsunuz
+git clone <repo_URL> = Remote bir repository'i local calışma ortamına indirmek repository url'ini girerek indirebiliyoruz
