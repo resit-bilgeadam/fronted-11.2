@@ -1,0 +1,19 @@
+GIT KOMUTLARI
+
+'git' komutu ile aşağıdaki komutları çalıştırabiliriz. 
+Yani aşağıdaki komutları çalıştırabilmek için 'git' komutunu en başta yazmamız gerekiyor
+
+
+--version = bilgisayarımızda yüklü olan git versiyonunu görmemizi sağlar
+init = çalıştırıldığı klasör içerisinde yeni bir git reposu oluşturmamızı sağlar.
+status = projedeki dosyaların statusunu görmemizi sağlar (modifiye edilmiş ya da eklenmiş dosyalar gibi)
+add = projede versiyonlamak için takip etmek için kullandığımız komut
+commit = projenin takip edilen dosyalarını saklamamıza/versiyonlamamıza yarar
+commit -m "Commit mesajı.." = -m flagi ile bu şekilde terminal editörüne girmeden commit mesajı yazabiliriz
+restore = Dosyaların add ya da commit yapmadan önceki haline dönmesini sağlar
+restore --staged = --staged flagi commit yapmadan önce çalıştırılmasını sağlar
+log = daha önceki commit edilmiş versiyonları görüntüler
+log --oneline = daha önceki commitleri tek satırda görüntüler
+reset --soft = --soft flagi ile dosyaları en son commit yapılmadan önceki haline geri döndürebiliriz
+reset --hard = --hard flagi ile dosyaları daha önceki istediğiniz bir commit versiyonuna döndürür. 
+Belirtilen commit sonrasındaki Bütün değişiklikleri siler
